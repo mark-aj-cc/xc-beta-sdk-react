@@ -5932,7 +5932,7 @@ async function validateSiteIdAndApiKey(siteId, apiKey) {
 
   try {
     const response = await fetch(
-      `https://api.crossclassify.com/v1/siteValidation/`,
+      `https://api-stg.crossclassify.com/v1/siteValidation/`,
       {
         method: "POST",
         body: JSON.stringify({
